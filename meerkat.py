@@ -11,6 +11,7 @@ import random
 import time
 from datetime import datetime
 from flask_cors import CORS
+import os
 
 # Configurando o Flask e o CORS para começar com códigos limpos
 app = Flask(__name__)
@@ -60,4 +61,4 @@ def scrape():
     return jsonify(data)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=os.getenv("PORT", default=5000))
