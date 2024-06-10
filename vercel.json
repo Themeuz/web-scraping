@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     { 
-      "src": "api/meerkat.py", 
+      "src": "meerkat.py", 
       "use": "@vercel/python" 
     }
   ],
