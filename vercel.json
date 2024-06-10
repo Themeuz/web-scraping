@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "web-scraping/api/meerkat.py", "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "web-scraping/api/meerkat.py" }
+  ]
+}
