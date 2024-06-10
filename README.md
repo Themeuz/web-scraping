@@ -19,7 +19,7 @@ web-scraping/ <br>
 │ <br>
 ├── api/ <br>
 │   ├── __init__.py <br>
-│   └── scrape.py <br>
+│   └── main.py <br>
 ├── requirements.txt <br>
 └── vercel.json <br>
 
